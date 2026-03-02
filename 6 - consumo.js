@@ -1,5 +1,5 @@
 // --- Calculadora de Consumo de Combustível ---
-
+// retirei "" dos valores
 const precos = {
   gasolina: 5.8,
   alcool: 3.9,
@@ -14,7 +14,7 @@ function calcularGasto(distancia, consumoKml, tipoCombustivel) {
 
   return custoTotal;
 }
-
+// retirei '' da distancia
 const viagem = {
   destino: "Litoral",
   distancia: 200,
@@ -29,7 +29,7 @@ console.log("Custo estimado no Diesel: R$ " + calcularGasto(200, 15, precos.dies
 console.log("Custo estimado na Gasolina: R$ " + resultadoGasolina);
 
 //let mensagem fora do IF
-let mensagem = "O álcool está compensando!";
+const mensagem = "O álcool está compensando!";
 
 if (precos.alcool < 4) 
 
