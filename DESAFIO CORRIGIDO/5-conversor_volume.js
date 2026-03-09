@@ -1,12 +1,13 @@
 // --- Conversor de Medidas de Fábrica ---
+// Retirei ""
+const mlPorLitro = 1000;
 
-const mlPorLitro = "1000";
-
+// divisão
 function converterMlParaLitro(quantidadeMl) {
   const resultado = quantidadeMl / mlPorLitro;
   return resultado;
 }
-
+// multiplicação
 function converterLitroParaMl(quantidadeLitros) {
   const resultado = quantidadeLitros * mlPorLitro;
   return resultado;
@@ -26,6 +27,6 @@ console.log("Lote 2 (2L em Mililitros): " + calculoLote2 + "ml");
 
 //const estoqueBaixo = true;
 
-if (producaoDia.lote1 == 0 && producaoDia.lote2 == 0) {
+if (producaoDia.lote1 === 0 && producaoDia.lote2 === 0) 
   console.log("Atenção: Estoque zerado!");
-}
+

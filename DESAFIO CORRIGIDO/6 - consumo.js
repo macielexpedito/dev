@@ -28,7 +28,7 @@ console.log("Viagem para: " + viagem.destino);
 console.log("Custo estimado no Diesel: R$ " + calcularGasto(200, 15, precos.diesel));
 console.log("Custo estimado na Gasolina: R$ " + resultadoGasolina);
 
-//let mensagem fora do IF
+//const mensagem fora do IF
 const mensagem = "O álcool está compensando!";
 
 if (precos.alcool < 4) 

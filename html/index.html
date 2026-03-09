@@ -1,21 +1,118 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, 
-    initial-scale=1.0" />
-    <script src=" ./script.js" defer></script>
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev | Portfólio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background: #0f172a;
+            color: #f1f5f9;
+        }
+
+        header {
+            background: #1e293b;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2rem;
+            color: #38bdf8;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: #f1f5f9;
+            text-decoration: none;
+            margin: 0 15px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background: #38bdf8;
+            color: #0f172a;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #0ea5e9;
+        }
+
+        footer {
+            background: #1e293b;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            font-size: 0.9rem;
+        }
+
+        @media (min-width: 768px) {
+            section {
+                padding: 100px;
+            }
+        }
+    </style>
 </head>
 <body>
-    <form action="=""">
-        <label for="Nome">Nome do Paciente</label>
-        <input type="text" id="nome" placeholder="digite o nome do paciente"
-        <label for="Peso">Peso do Paciente</label>
-        <input type="text" id="peso" placeholder="digite o peso do paciente"
-        <label for="Altura">Altura do Paciente</label>
-         <input type="text" id="altura" placeholder="digite a altura do paciente"
-         
-    <span></span>
+
+    <header>
+        <h1>👨‍💻 Dev Front-End</h1>
+        <nav>
+            <a href="#sobre">Sobre</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Sou desenvolvedor apaixonado por tecnologia, criando soluções modernas e eficientes.</p>
+        <a href="#contato" class="btn">Fale Comigo</a>
+    </section>
+
+    <section id="projetos">
+        <h2>Projetos</h2>
+        <p>🔹 Sistema Web<br>
+           🔹 Landing Page<br>
+           🔹 Aplicativo Mobile</p>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Email: dev@email.com</p>
+        <p>LinkedIn: linkedin.com/in/dev</p>
+    </section>
+
+    <footer>
+        <p>© 2026 - Desenvolvido por Dev</p>
+    </footer>
+
 </body>
 </html>
